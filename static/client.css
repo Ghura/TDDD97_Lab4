@@ -1,0 +1,272 @@
+body {
+    background-image: url(background.jpg);
+}
+
+#pagewrap {
+    width: 600px;
+    margin: 100px auto 0 auto;
+}
+
+.logoslogan {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 338px;
+    height: 398px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(wimage2.png);
+}
+
+.loginsignup {
+    float: left;
+    width: 240px;
+    height: 400px;
+}
+
+.login {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 258px;
+}
+
+input {
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.signup input, .login input {
+    float: right;
+    margin-right: 2.5px;
+    width: 110px;
+    box-sizing: border-box;
+}
+
+.signup button, .login button, #browsesearch button, #accountpassword button {
+    float: right;
+    margin-right: 2.5px;
+}
+
+.signup select {
+    float: right;
+    margin-right: 2.5px;
+    width: 110px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.signup label, .login label {
+    width: 125px;
+    margin-left: 2.5px;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.inner {
+    width: 225px;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    margin-bottom: auto;
+}
+
+.row {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#mess, #mess2, #newpassmess, #searchusermess {
+    float: left;
+    font-style: italic;
+    font-size: 10px;
+    margin-left: 2.5px;
+}
+
+/* ------- Tabgrejjer ------- */
+
+/* Tab style */
+.tab {
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: white;
+    width: 750px;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin: 0;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    /*border: 1px solid black;*/
+    width: 750px;
+    margin: 10px auto 0 auto;
+    background-color: inherit;
+}
+
+/* ------- Account view ------- */
+
+#accountpassword {
+    width: 318px;
+    float: left;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#accountthankyou {
+    width: 368px;
+    height: 200px;
+    background-image: url(thankyoufinal.png);
+    float: right;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#accountpassword input, #browsesearch button {
+    float: right;
+}
+
+#accountpassword label{
+    font-size: 80%;
+}
+
+.chartarea{
+  overflow:hidden;
+}
+section div {
+  float: left;
+  width: 48%;
+}
+section {
+    float: left;
+    width: 750px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px auto 100px auto;
+    border-radius: 10px;
+}
+
+
+/* ------- Home view ------- */
+
+/* Wall part */
+#wall {
+    width: 390px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    min-height: 312px;
+}
+
+
+/* Logged in user part */
+#loggedinuser {
+    width: 266px;
+    float: right;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+#loggedinname, #loggedinfamilyname, #loggedingender, #loggedincity, #loggedincountry, #loggedinemail {
+    float: right;
+}
+
+/* Post message part */
+textarea {
+    width: 302px;
+    height: 50px;
+    resize: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #dddddd;
+}
+
+#messages{
+    font-size: 85%;
+}
+
+#posttowall {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+}
+
+#updatewall {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+}
+
+/* ------- Browse view ------- */
+#browsesearch {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+#browsesearch input {
+    width: 250px;
+    float: right;
+}
+
